@@ -80,4 +80,7 @@ return {
       )
     end,
   },
+  {
+    "Shatur/neovim-ayu",
+  },
 }
