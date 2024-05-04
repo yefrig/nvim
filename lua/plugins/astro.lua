@@ -8,6 +8,12 @@ return {
         n = {
           L = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "Next buffer" },
           H = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
+          ["<Leader>e"] = {
+            function()
+              if not require("mini.files").close() then require("mini.files").open() end
+            end,
+            desc = "Explorer",
+          },
         },
       },
     },
