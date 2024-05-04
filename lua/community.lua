@@ -6,6 +6,9 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.fish" },
+  { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.colorscheme.kanagawa-nvim" },
